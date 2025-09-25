@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transcend Chauffeur Service</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <a href="#">
+      <img src="images/logo.png" alt="Transcend Logo" class="logo">
+    </a>
+    <a href="#booking" class="btn">Get a Quote</a>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Luxury Chauffeur Service</h1>
+    <p>Professional drivers. Premium vehicles. Exceptional service.</p>
+    <a href="#booking" class="btn">Get a Quote</a>
+  </section>
+
+  <!-- Booking Form -->
+  <section id="booking" class="booking">
+    <h2>Request a Quote</h2>
+    <form id="bookingForm">
+      <input type="text" id="pickup" placeholder="Pickup location" required>
+      <input type="text" id="dropoff" placeholder="Drop-off location" required>
+      <input type="datetime-local" id="datetime" required>
+      <input type="number" id="passengers" placeholder="Number of passengers" required>
+      <button type="submit" class="btn">Send via WhatsApp</button>
+    </form>
+  </section>
+
+  <!-- Services -->
+  <section class="services">
+    <h2>Our Services</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Airport Transfers</h3>
+        <p>Seamless travel to and from all major airports.</p>
+        <a href="#booking" class="link">Book this service →</a>
+      </div>
+      <div class="card">
+        <h3>Weddings</h3>
+        <p>Arrive in style on your special day.</p>
+        <a href="#booking" class="link">Book this service →</a>
+      </div>
+      <div class="card">
+        <h3>Corporate</h3>
+        <p>Professional travel for business executives.</p>
+        <a href="#booking" class="link">Book this service →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fleet -->
+  <section class="fleet">
+    <h2>Our Fleet</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="images/s-class.jpg" alt="Mercedes S-Class">
+        <h3>Mercedes S-Class</h3>
+        <p>Luxury sedan with premium comfort for executive travel.</p>
+        <a href="#booking" class="btn small">Book Now</a>
+      </div>
+      <div class="card">
+        <img src="images/v-class.jpg" alt="Mercedes V-Class">
+        <h3>Mercedes V-Class</h3>
+        <p>Spacious MPV for group travel or extra luggage.</p>
+        <a href="#booking" class="btn small">Book Now</a>
+      </div>
+      <div class="card">
+        <img src="images/range-rover.jpg" alt="Range Rover">
+        <h3>Range Rover</h3>
+        <p>Iconic SUV offering luxury and presence.</p>
+        <a href="#booking" class="btn small">Book Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© <span id="year"></span> Transcend. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
